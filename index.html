@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   
+    <header class="header">
+        <div class="logo">
+            <span class="logo-first">Ailyn</span> <span class="logo-last">Elladora</span>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certification</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content"> 
+            <h3>Hi!</h3>
+            <h1>I'm <span>Ailyn<br></span></h1>
+            <p>An ambitious student pursuing a Bachelor of Science in Computer Science at Tangub City Global College.</p>
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/ailyn.b.elladora/yourprofile" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/ailyynnn____/yourprofile" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/ailynnn88/yourprofile" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/image.jfif" alt="">
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="images/img2.jfif" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <p>I am a passionate and dedicated student  pursuing a Bachelor of Science in Computer Science at 
+                Tangub City Global College. I am ambitious and aspire to one day have secure a stable career that will allow
+                me to provide for my family. While I often encounter challenging concepts that test my understanding, 
+                I remain committed to learning and growing in this field. I embrace these difficulties as opportunities
+                to strengthen my knowledge and develop my problem-solving abilities. Even when the path is difficult, 
+                I am willing to put in the effort to become capable and competent.</p>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="education-img">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img3.jfif" alt="">
+        </div>
+        <div class="education-content">
+            <h2 class="heading">Education</h2>
+            <ul>
+                <li>
+                    <strong><span class="school-name">Dawa Elementary School</span></strong><br>
+                    Elementary<br>
+                    Address: Dawa Josefina ZDS <br>
+                    Year: 2009 - 2015
+                </li>
+                <li>
+                    <strong><span class="school-name">Dawa National High School</span></strong><br>
+                    High School<br>
+                    Address: Dawa Josefina ZDS <br>
+                    Year: 2015 - 2019 
+                </li>
+                <li>
+                    <strong><span class="school-name">Leonardo National High School</span></strong><br>
+                    Senior High School <br>
+                    Strand: Technical Vocational Livelihood (ICT-CSS)<br>
+                    Address: Leonardo Josefina ZDS <br>
+                    Year: 2019 - 2021
+                </li>
+                <li>
+                    <strong><span class="school-name">Tangub City Global College</span></strong><br>
+                    College <br>
+                    Program: Bachelor of Science in Computer Science <br>
+                    Address: Tangub City Misamis Occidental <br>
+                    Year: 2022 - 2026
+                </li>
+            </ul>
+        </div>
+    </section>
+
+   <section id="projects" class="projects">
+    <h2 class="heading">My Projects</h2>
+
+    <div class="projects-container">
+        <div class="project-box">
+            <img src="images/proj1.png" alt="">
+            <img src="images/proj2.png" alt="">
+            <h3>Tourism Destination Viewer</h3>
+            <p>Built with HTML, CSS, and PHP to manage tourism spots in Sergio Osmena Zamboanga Del Sur.</p>
+        </div>
+        <div class="project-box">
+            <img src="images/proj5.png" alt="">
+            <img src="images/proj6.png" alt="">
+            <h3>HouseMaster: Boarding House Location Finder and Appointment System</h3>
+            <p>Location and Appointment System for Boarding Houses at Maloro Tangub City</p>
+        </div>
+    </div>
+    <div id="projectModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalProjectImg">
+    </div>
+</section>
+
+<section id="certifications" class="certifications">
+    <h2 class="heading">My Certifications</h2>
+    
+    <div class="certifications-container">
+        <div class="cert-box">
+            <img src="images/cert4.jfif" alt="Certification 1">
+        </div>
+        <div class="cert-box">
+            <img src="images/cert5.jfif" alt="Certification 2">
+        </div>
+        <div class="cert-box">
+            <img src="images/cert6.jfif" alt="Certification 3">
+        </div>
+        <div class="cert-box">
+            <img src="images/cert7.jfif" alt="Certification 4">
+        </div>
+        <div class="cert-box">
+            <img src="images/cert8.jfif" alt="Certification 5">
+        </div>
+        <div class="cert-box">
+            <img src="images/cert9.jfif" alt="Certification 5">
+        </div>
+    </div>
+    <div id="certModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+</section>
+
+<section id="resume" class="resume">
+    <h2 class="heading">My Resume</h2>
+    <div class="resume-container">
+
+        <!-- LEFT SIDE INFO -->
+        <div class="resume-box">
+            <h3>Education</h3>
+            <p>
+                Dawa Elementary School<br>
+                2009-2015
+            </p>
+            <p>
+                Dawa National High School<br>
+                2015-2019
+            </p>
+            <p>
+                Leonardo National High School<br>
+                2019-2021
+            </p>
+            <p>Tangub City Global College (BSCS)<br>
+                2022 - 2026
+            </p>
+
+            <h3>Certifications</h3>
+            <ul>
+                <li>Best Research Paper</li>
+                <li>Best Poster Presenter</li>
+                <li>ICT Project Management</li>
+                <li>Introduction to Data Analyticss with Python</li>
+            </ul>
+        </div>
+
+        <!-- RIGHT SIDE INFO -->
+        <div class="resume-box">
+            <h3>Projects</h3>
+            <ul>
+                <li>Tourism Management System (HTML, CSS, PHP)</li>
+                <li>BH Finder System (Software Engineering Project)</li>
+            </ul>
+            
+            <h3>Skills</h3>
+            <ul>
+                <li>UI/UX Design</li>
+                <li>Playing Guitar</li>
+            </ul>
+
+            <h3>Experience</h3>
+            <p>Internship Experience:<br>
+               Assisted in computer lab maintenance, troubleshooting systems, and supporting students and instructors.</p>
+
+            <h3>Career Goal</h3>
+            <p>To become a successful person someday.</p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <a href="CV/cv.pdf" download class="btn-1">Download CV</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-form">
+    <h2 class="contact-me">Contact Me</h2>
+    <div class="contact-container">
+        
+        <!-- LEFT: FORM -->
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" required>
+            </div>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+
+        <!-- RIGHT: CONTACT INFO -->
+        <div class="contact-info-box">
+            <h3>Get in Touch</h3>
+            <p>Email: ailynellaora18@gmail.com</p>
+            <p>Phone: +63 926 293 0046</p>
+            <p>Location: Philippines</p>
+
+            <div class="contact-social">
+                <a href="https://www.facebook.com/ailyn.b.elladora/yourprofile" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/ailyynnn____/yourprofile" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/ailynnn88/yourprofile" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".navbar a");
+
+    window.onscroll = () => {
+        sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute("id");
+
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                document.querySelector('.navbar a[href*=' + id + ']').classList.add("active");
+            });
+        }
+    });
+};
+</script>
+
+<script>
+    const modal = document.getElementById("certModal");
+    const modalImg = document.getElementById("modalImg");
+    const images = document.querySelectorAll(".cert-box img");
+    const closeBtn = document.querySelector(".close");
+
+        // Open modal when clicking image
+        images.forEach(img => {
+        img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+});
+
+        // Close modal when clicking X
+        closeBtn.onclick = function () {
+        modal.style.display = "none";
+};
+
+        // Close when clicking outside image
+        modal.onclick = function (e) {
+        if (e.target !== modalImg) {
+        modal.style.display = "none";
+    }
+};
+
+        const projectModal = document.getElementById("projectModal");
+        const modalProjectImg = document.getElementById("modalProjectImg");
+        const projectImages = document.querySelectorAll(".project-box img");
+
+        // Open modal when clicking project image
+        projectImages.forEach(img => {
+        img.onclick = function () {
+        projectModal.style.display = "block";
+        modalProjectImg.src = this.src;
+    }
+});
+
+        // Close modal when clicking X
+        projectModal.querySelector(".close").onclick = function () {
+    projectModal.style.display = "none";
+};
+
+        // Close modal when clicking outside image
+        projectModal.onclick = function(e) {
+        if (e.target !== modalProjectImg) {
+        projectModal.style.display = "none";
+    }
+};
+</script>
+
+<footer>
+        <div class="contact-info">
+            <p><i class="uil uil-envelope"></i> Email: ailynellaora18@gmail.com</p>
+            <p><i class="uil uil-phone"></i> Tel: +639262930046</p>
+        </div>
+        <div class="social-footer">
+                <a href="https://www.facebook.com/ailyn.b.elladora/yourprofile" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/ailyynnn____/yourprofile" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/ailynnn88/yourprofile" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+</footer>
+
+</body>
+</html>
